@@ -1,0 +1,388 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>hw1_problem2</title><meta name="generator" content="MATLAB 8.4"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2015-01-09"><meta name="DC.source" content="hw1_problem2.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h2>Contents</h2><div><ul><li><a href="#1">Problem 2</a></li><li><a href="#2">Class Objects</a></li><li><a href="#3">Part (a)</a></li><li><a href="#4">Part (b)</a></li><li><a href="#5">Part (b) - extension</a></li><li><a href="#6">Temp Code</a></li></ul></div><h2>Problem 2<a name="1"></a></h2><p>Author: Varad Meru (<a href="mailto:vmeru@uci.edu">vmeru@uci.edu</a>) Course: CS 273, Machine Learning (<a href="http://sli.ics.uci.edu/Classes/2015W-273a">http://sli.ics.uci.edu/Classes/2015W-273a</a>) Homework Description - <a href="http://sli.ics.uci.edu/Classes/2015W-273a?action=download&amp;upname=HW1.pdf">http://sli.ics.uci.edu/Classes/2015W-273a?action=download&amp;upname=HW1.pdf</a> Started on 08th Jab, 15.</p><pre class="codeinput"><span class="comment">%{
+</span><span class="comment">Problem 2 -
+</span><span class="comment">In this problem, you will continue to use the Iris data and explore a KNN classifier
+</span><span class="comment">using provided knnClassify Matlab class. For more information on classes in general,
+</span><span class="comment">and this class in particular, see the Matlab OOP notes on the course page.
+</span><span class="comment">%}
+</span>
+<span class="comment">% Fetching the dataset and separating it into X and Y.</span>
+iris=load(<span class="string">'data/iris.txt'</span>);     <span class="comment">% load the text file</span>
+y = iris(:,end);           <span class="comment">% target value is last column</span>
+X = iris(:,1:end-1);       <span class="comment">% features are other columns</span>
+features = char(<span class="string">'Sepal length'</span>,<span class="string">'Sepal width'</span>,<span class="string">'Petal length'</span>,<span class="string">'Petal width'</span>,<span class="string">'Species'</span>);
+features_short = char(<span class="string">'SL'</span>,<span class="string">'SW'</span>,<span class="string">'PL'</span>,<span class="string">'PW'</span>,<span class="string">'SP'</span>);
+
+<span class="comment">% Note: indexing with ":" indicates all values (in this case, all rows);</span>
+<span class="comment">% indexing with a value ("1", "end", etc.) extracts only that one value</span>
+<span class="comment">% (here, column % indexing rows/columns with a range ("1:end-1") extracts</span>
+<span class="comment">% any row/column in that range</span>
+
+<span class="comment">% Shuffle and split the data into training and test subsets:-</span>
+[X, y] = shuffleData(X,y);
+<span class="comment">% shuffle data randomly</span>
+<span class="comment">% (This is a good idea in case your data are ordered in some pathological</span>
+<span class="comment">% way, % as the Iris data are)</span>
+
+[Xtr, Xte, Ytr, Yte] = splitData(X,y, .75); <span class="comment">% split data into 75/25 train/test</span>
+whos
+</pre><pre class="codeoutput">  Name                  Size            Bytes  Class          Attributes
+
+  X                   148x4              4736  double                   
+  Xte                  37x4              1184  double                   
+  Xtr                 111x4              3552  double                   
+  Yte                  37x1               296  double                   
+  YteHat               37x1               296  double                   
+  Ytr                 111x1               888  double                   
+  features              5x12              120  char                     
+  features_short        5x2                20  char                     
+  iris                148x5              5920  double                   
+  knn                   1x1              5360  knnClassify              
+  y                   148x1              1184  double                   
+
+</pre><h2>Class Objects<a name="2"></a></h2><p>An old-style class is created using a directory preceded by @. For example, included in the code is a kNN classifier, @knnClassify. The methods associated with this class are the Matlab .m files located within it. The constructor is knnClassify; all the other functions are called by providing a knnClassify object as the first argument. (That tells Matlab / Octave where to look for the function.) So, you can build and "train" a kNN classifier on Xtr,Ytr and make predictions on some data Xte with it using e.g.,</p><pre class="codeinput">knn = knnClassify( Xtr, Ytr, 1 ); <span class="comment">% replace or set K to some integer</span>
+YteHat = predict( knn, Xte ); <span class="comment">% make predictions on Xtest</span>
+
+<span class="comment">% If your data are 2D, you can visualize a data set and a classifier's</span>
+<span class="comment">% decision regions using e.g.,</span>
+<span class="comment">%plotClassify2D( knn, Xtr, Ytr ); % make 2D classification plot with data (Xtr,Ytr)</span>
+<span class="comment">% (This function plots the training data, then calls knn's predict function</span>
+<span class="comment">% on a densely spaced grid of points in the 2D space, and uses this to</span>
+<span class="comment">% produce the background color.)</span>
+</pre><h2>Part (a)<a name="3"></a></h2><p>Modify the code listed above to use only the first two features of X (e.g., let X be only the first two columns of iris, instead of the first four), and visualize (plot) the classification boundary for varying values of K = [1, 5, 10, 50] using plotClassify2D.</p><pre class="codeinput">iris=load(<span class="string">'data/iris.txt'</span>);     <span class="comment">% load the text file</span>
+y = iris(:,end);           <span class="comment">% target value is last column</span>
+X = iris(:,1:end-1);       <span class="comment">% features are other columns</span>
+[X, y] = shuffleData(X,y);
+
+X = X(:,1:2);
+[Xtr,Xte,Ytr,Yte] = splitData(X,y, .75);
+
+h=figure;
+i = 1;
+<span class="keyword">for</span> k=[1, 5, 10, 50];
+    subplot(2,2,i);
+    i = i+1;
+    knn = knnClassify( Xtr, Ytr, k );
+    YteHat = predict( knn, Xte );
+    plotClassify2D( knn, Xtr, Ytr );
+    title(strcat({<span class="string">'K= '</span>},num2str(k)))
+    hold <span class="string">on</span>;
+<span class="keyword">end</span>;
+hold <span class="string">off</span>;
+</pre><img vspace="5" hspace="5" src="hw1_problem2_01.png" alt=""> <h2>Part (b)<a name="4"></a></h2><p>Again using only the first two features, compute the error rate (number of misclassifications) on both the training and test data as a function of K = [1, 2, 5, 10, 50, 100, 200]. You can do this most easily with a for-loop.</p><pre class="codeinput">iris=load(<span class="string">'data/iris.txt'</span>);     <span class="comment">% load the text file</span>
+y = iris(:,end);           <span class="comment">% target value is last column</span>
+X = iris(:,1:end-1);       <span class="comment">% features are other columns</span>
+[X, y] = shuffleData(X,y);
+
+X = X(:,1:2);
+[Xtr,Xte,Ytr,Yte] = splitData(X,y, .75);
+
+<span class="comment">% Training with Xtr and Ytr</span>
+K=[1,2,5,10,50,100,200];
+errorsTr = zeros(size(K));
+errorsTe = zeros(size(K));
+<span class="keyword">for</span> i=1:size(K,2);
+    knn = knnClassify( Xtr, Ytr, K(:,i));
+    YtrHat = predict( knn, Xtr );
+    errorsTr(1,i) = errorTrain(Ytr, YtrHat);
+    YteHat = predict( knn, Xte );
+    errorsTe(1,i) = errorTrain(Yte, YteHat);
+<span class="keyword">end</span>;
+
+figure;
+plot(K, log(errorsTr+1));
+hold <span class="string">on</span>;
+plot(K, log(errorsTe+1));
+hold <span class="string">off</span>;
+</pre><img vspace="5" hspace="5" src="hw1_problem2_02.png" alt=""> <h2>Part (b) - extension<a name="5"></a></h2><p>Again using only the first two features, compute the error rate (number of misclassifications) on both the training and test data as a function of K = [1, 2, 5, 10, 50, 100, 200]. You can do this most easily with a for-loop.</p><pre class="codeinput">iris=load(<span class="string">'data/iris.txt'</span>);     <span class="comment">% load the text file</span>
+y = iris(:,end);           <span class="comment">% target value is last column</span>
+X = iris(:,1:end-1);       <span class="comment">% features are other columns</span>
+[X, y] = shuffleData(X,y);
+
+X = X(:,1:2);
+[Xtr,Xte,Ytr,Yte] = splitData(X,y, .75);
+
+<span class="comment">% Training with Xtr and Ytr</span>
+K=1:100;
+errorsTr = zeros(size(K));
+errorsTe = zeros(size(K));
+<span class="keyword">for</span> i=1:size(K,2);
+    knn = knnClassify( Xtr, Ytr, K(:,i));
+    YtrHat = predict( knn, Xtr );
+    errorsTr(1,i) = errorTrain(Ytr, YtrHat);
+    YteHat = predict( knn, Xte );
+    errorsTe(1,i) = errorTrain(Yte, YteHat);
+<span class="keyword">end</span>;
+
+<span class="comment">% Creating figure. The X axis is various values of K.</span>
+figure;
+plot(K, log(errorsTr+1));
+hold <span class="string">on</span>;
+plot(K, log(errorsTe+1));
+hold <span class="string">off</span>;
+</pre><img vspace="5" hspace="5" src="hw1_problem2_03.png" alt=""> <h2>Temp Code<a name="6"></a></h2><pre class="codeinput"><span class="comment">%{
+</span><span class="comment">h=figure;
+</span><span class="comment">semilogy(errorsTr,log(errorsTr + 1))
+</span><span class="comment">hold on;
+</span><span class="comment">semilogy(errorsTe,log(errorsTe + 1))
+</span><span class="comment">hold off;
+</span><span class="comment">
+</span><span class="comment">h=figure;
+</span><span class="comment">semilogx(errorsTr,log(errorsTr + 1))
+</span><span class="comment">hold on;
+</span><span class="comment">semilogx(errorsTe,log(errorsTe + 1))
+</span><span class="comment">hold off;
+</span><span class="comment">
+</span><span class="comment">h=figure;
+</span><span class="comment">semilogx(K, log(errorsTr + 1));
+</span><span class="comment">hold on;
+</span><span class="comment">semilogx(K, log(errorsTe + 1));
+</span><span class="comment">hold off;
+</span><span class="comment">
+</span><span class="comment">h=figure;
+</span><span class="comment">semilogy(K, log(errorsTr + 1));
+</span><span class="comment">hold on;
+</span><span class="comment">semilogy(K, log(errorsTe + 1));
+</span><span class="comment">hold off;
+</span><span class="comment">%}</span>
+</pre><p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2014b</a><br></p></div><!--
+##### SOURCE BEGIN #####
+%% Problem 2
+% Author: Varad Meru (vmeru@uci.edu)
+% Course: CS 273, Machine Learning (http://sli.ics.uci.edu/Classes/2015W-273a)
+% Homework Description - http://sli.ics.uci.edu/Classes/2015W-273a?action=download&upname=HW1.pdf
+% Started on 08th Jab, 15.
+
+%{
+Problem 2 -
+In this problem, you will continue to use the Iris data and explore a KNN classifier
+using provided knnClassify Matlab class. For more information on classes in general,
+and this class in particular, see the Matlab OOP notes on the course page.
+%}
+
+% Fetching the dataset and separating it into X and Y.
+iris=load('data/iris.txt');     % load the text file
+y = iris(:,end);           % target value is last column
+X = iris(:,1:end-1);       % features are other columns
+features = char('Sepal length','Sepal width','Petal length','Petal width','Species');
+features_short = char('SL','SW','PL','PW','SP');
+
+% Note: indexing with ":" indicates all values (in this case, all rows);
+% indexing with a value ("1", "end", etc.) extracts only that one value
+% (here, column % indexing rows/columns with a range ("1:end-1") extracts
+% any row/column in that range
+
+% Shuffle and split the data into training and test subsets:- 
+[X, y] = shuffleData(X,y); 
+% shuffle data randomly
+% (This is a good idea in case your data are ordered in some pathological
+% way, % as the Iris data are)
+
+[Xtr, Xte, Ytr, Yte] = splitData(X,y, .75); % split data into 75/25 train/test
+whos
+
+%% Class Objects
+% An old-style class is created using a directory preceded by @. For
+% example, included in the code is a kNN classifier, @knnClassify. The
+% methods associated with this class are the Matlab .m files located within
+% it. The constructor is knnClassify; all the other functions are called by
+% providing a knnClassify object as the first argument. (That tells Matlab
+% / Octave where to look for the function.) So, you can build and "train" a
+% kNN classifier on Xtr,Ytr and make predictions on some data Xte with it
+% using e.g.,
+knn = knnClassify( Xtr, Ytr, 1 ); % replace or set K to some integer
+YteHat = predict( knn, Xte ); % make predictions on Xtest
+
+% If your data are 2D, you can visualize a data set and a classifier's
+% decision regions using e.g.,
+%plotClassify2D( knn, Xtr, Ytr ); % make 2D classification plot with data (Xtr,Ytr)
+% (This function plots the training data, then calls knn's predict function
+% on a densely spaced grid of points in the 2D space, and uses this to
+% produce the background color.)
+
+%% Part (a)
+% Modify the code listed above to use only the first two features of X
+% (e.g., let X be only the first two columns of iris, instead of the first
+% four), and visualize (plot) the classification boundary for varying
+% values of K = [1, 5, 10, 50] using plotClassify2D.
+
+iris=load('data/iris.txt');     % load the text file
+y = iris(:,end);           % target value is last column
+X = iris(:,1:end-1);       % features are other columns
+[X, y] = shuffleData(X,y);
+
+X = X(:,1:2);
+[Xtr,Xte,Ytr,Yte] = splitData(X,y, .75);
+
+h=figure;
+i = 1;
+for k=[1, 5, 10, 50];
+    subplot(2,2,i);
+    i = i+1;
+    knn = knnClassify( Xtr, Ytr, k );
+    YteHat = predict( knn, Xte ); 
+    plotClassify2D( knn, Xtr, Ytr );
+    title(strcat({'K= '},num2str(k)))
+    hold on;
+end;
+hold off;
+
+%% Part (b)
+% Again using only the first two features, compute the error rate (number
+% of misclassifications) on both the training and test data as a function
+% of K = [1, 2, 5, 10, 50, 100, 200]. You can do this most easily with a
+% for-loop.
+iris=load('data/iris.txt');     % load the text file
+y = iris(:,end);           % target value is last column
+X = iris(:,1:end-1);       % features are other columns
+[X, y] = shuffleData(X,y);
+
+X = X(:,1:2);
+[Xtr,Xte,Ytr,Yte] = splitData(X,y, .75);
+
+% Training with Xtr and Ytr
+K=[1,2,5,10,50,100,200];
+errorsTr = zeros(size(K));
+errorsTe = zeros(size(K));
+for i=1:size(K,2);
+    knn = knnClassify( Xtr, Ytr, K(:,i));
+    YtrHat = predict( knn, Xtr );
+    errorsTr(1,i) = errorTrain(Ytr, YtrHat);
+    YteHat = predict( knn, Xte );
+    errorsTe(1,i) = errorTrain(Yte, YteHat);
+end;
+
+figure;
+plot(K, log(errorsTr+1));
+hold on;
+plot(K, log(errorsTe+1));
+hold off;
+
+%% Part (b) - extension
+% Again using only the first two features, compute the error rate (number
+% of misclassifications) on both the training and test data as a function
+% of K = [1, 2, 5, 10, 50, 100, 200]. You can do this most easily with a
+% for-loop.
+
+iris=load('data/iris.txt');     % load the text file
+y = iris(:,end);           % target value is last column
+X = iris(:,1:end-1);       % features are other columns
+[X, y] = shuffleData(X,y);
+
+X = X(:,1:2);
+[Xtr,Xte,Ytr,Yte] = splitData(X,y, .75);
+
+% Training with Xtr and Ytr
+K=1:100;
+errorsTr = zeros(size(K));
+errorsTe = zeros(size(K));
+for i=1:size(K,2);
+    knn = knnClassify( Xtr, Ytr, K(:,i));
+    YtrHat = predict( knn, Xtr );
+    errorsTr(1,i) = errorTrain(Ytr, YtrHat);
+    YteHat = predict( knn, Xte );
+    errorsTe(1,i) = errorTrain(Yte, YteHat);
+end;
+
+% Creating figure. The X axis is various values of K.
+figure;
+plot(K, log(errorsTr+1));
+hold on;
+plot(K, log(errorsTe+1));
+hold off;
+
+%% Temp Code
+%{
+h=figure;
+semilogy(errorsTr,log(errorsTr + 1))
+hold on;
+semilogy(errorsTe,log(errorsTe + 1))
+hold off;
+
+h=figure;
+semilogx(errorsTr,log(errorsTr + 1))
+hold on;
+semilogx(errorsTe,log(errorsTe + 1))
+hold off;
+
+h=figure;
+semilogx(K, log(errorsTr + 1));
+hold on;
+semilogx(K, log(errorsTe + 1));
+hold off;
+
+h=figure;
+semilogy(K, log(errorsTr + 1));
+hold on;
+semilogy(K, log(errorsTe + 1));
+hold off;
+%}
+##### SOURCE END #####
+--></body></html>

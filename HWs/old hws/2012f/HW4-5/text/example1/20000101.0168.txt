@@ -1,0 +1,169 @@
+
+So, was Y2K the most overhyped phenomenon in 2,000 years?
+
+
+Or did the diligence of a world preparing as if for war stave
+off the real danger of a cascading technological disaster?
+
+
+With the once-dreaded year 2000 having arrived in time zone
+after time zone with virtually no millennium-bug chaos, it seems
+that the many predictions of computer meltdowns, driven by the
+shift to the date 01-01-00, could now be widely disparaged as
+Chicken Little nonsense. They may even be seen as a conspiracy
+perpetrated by self-interested vendors of technology.
+
+
+The big caveat is that much potential Y2K damage might not
+become apparent until the business world goes back to work Monday,
+and perhaps not for days or weeks after that.
+
+
+But the consensus Saturday of a cross-section of government
+officials and Y2K specialists seemed to be that the stunningly
+uneventful New Year's Eve really did reflect one of civilization's
+finer hours.
+
+
+Years of planning, billions of dollars in investment, and
+unprecedented cooperation and information-sharing among nations and
+industries clearly paid off when New Year's Day arrived with
+seemingly no more glitches than any other.
+
+
+In some ways, specialists said, the vast sense of anticlimax
+that greeted the arrival of the year 2000 reflected widespread
+misunderstanding of what Y2K was all about.
+
+
+While many people viewed Y2K as potentially a small number of
+huge problems, technical experts understood that the real risk was
+of a huge number of Lilliputian problems that would bog down
+society for days or weeks. These efforts would be inconvenient,
+costly, and annoying, but in most cases probably far from matters
+of life and death. Media-fueled nightmares of crashing airplanes,
+plunging elevators, and entire states shivering in the dark were
+far off the mark.
+
+
+If the ``millennium bug'' still has any life, it now looks as
+though it could linger as a chronic, low-grade virus. It clearly
+will not be an acute heart attack.
+
+
+Groton computer consultant David J. Hayes, whose car sports a
+well-bolted ``Y2K'' license plate, is a former chief information
+officer for several area companies. Hayes noted that ``the guy who
+invented the term Y2K said at one time that it's going to be death
+by 10,000 papercuts,'' Hayes said. ``It's going to be all small
+problems, but there are going to be a lot of them.''
+
+
+``We've gone from the disaster scenario to the hassle
+scenario,'' said John Gantz, chief research officer with IDC Corp.
+of Framingham, which has been running ``Project Magellan'' to
+monitor Y2K problems around the world.
+
+
+IDC now estimates that computer ``downtime'' connected to
+dealing with Y2K will cost the global economy $21 billion this
+year. Those impacts may not become clear until this week, because
+probably 85 percent of the world's computers were shut off Friday
+night, Gantz said.
+
+
+While $21 billion is one of those numbers that sounds big, in
+context it represents barely 1/1,500th of the $32 trillion global
+economy. And while there will likely be widespread problems to fix,
+every society will be able to attack them in an environment where
+the basics of modern life _ electricity, telephones, water
+supplies, traffic lights _ seem to be functioning as well as they
+ever did.
+
+
+``I'd have to say that it was massively overhyped,'' Gantz said
+of Y2K apocalypse scenarios. ``I believe the work had to be done,
+but everyone focused on the most dramatic possible outcomes of what
+could have happened. We always said Y2K will appear not as a flood,
+but as a lot of leaky basements.''
+
+
+The true impact of Y2K will be felt as companies and government
+agencies deal with balky order processing systems, confused
+accounting spreadsheets, and screwed-up transaction records that
+may take a few minutes here and an hour there to fix.
+
+
+Bruce Webster, cochairman of the Washington-based Year 2000
+Group, said, ``Most Y2K errors are pretty dull. A program stops
+working or it makes a bad calculation. None of this means planes
+falling out of the sky or nuclear meltdowns.''
+
+
+Atlanta telecommunications analyst Jeffrey Kagan said, ``It
+looks like the worst most of us will have to deal with is
+inconveniences and frustrations, not real problems. Inaccurate
+bills. Wrong orders. Late deliveries.''
+
+
+What is likely to be lost in the finger-pointing over whether
+millions of people were unduly panicked about Y2K is that, given
+the stakes, officials had no choice but to take on the problem.
+Leaving, say, Belgium or the state of Ohio unremedied for Y2K as a
+test case for whether Y2K was really serious would have rightly
+been dismissed as an absurd option, given the risks and the
+interconnectedness of electric grids, telecommunications networks,
+and global trade.
+
+
+Even President Clinton's top Y2K troubleshooter, John Koskinen,
+gave voice Saturday to the rhetorical question now on the minds of
+many: ``Has this all been hype?''
+
+
+No way, Koskinen insisted. Rather, the smooth arrival of New
+Year's Day from Auckland to Honolulu reflected the governments' and
+industry's success in handling ``the biggest management challenge
+the world has had in 50 years.
+
+
+``We should not underestimate the nature of the problem that was
+initially there,'' Koskinen said. ``Had the effort not been made,
+had the money not been spent, we would be in a very different
+situation.''
+
+
+Peter Judge, spokesman for the Massachusetts Emergency
+Management Agency, which helped coordinate monitoring efforts for
+state agencies that spent $103 million preparing, said, ``I
+personally wouldn't have wanted to be the guy who said, `Nothing is
+going to happen. We'll just keep our fingers crossed.' The
+potential was catastrophic.''
+
+
+And it also bears remembering that Y2K anxiety was in some ways
+a luxury of prosperous nations. ``Y2K makes no difference in
+Nigeria,'' said technician Ayodele Adewale, celebrating the new
+year in the streets of Lagos. ``We do not normally have light or
+water, so if we do now then it must be a bonus.''
+
+
+Finally, some think the fact that Y2K came and went without
+disasters may also prove to be a turning point for many people in
+industrialized, technological societies who feel uncertain about
+their growing dependence on computers. Even as they yield countless
+benefits for people's work and leisure, digital systems often
+inspire mistrust, or a sense that humans are not fully in control.
+
+
+``The world is going to feel more comfortable with technology
+going forward,'' said Gary Beach, publisher of 135,000-circulation
+CIO Magazine, a Framingham-based specialty publication for business
+information executives.
+
+
+``Technology did not fail us in the last 24 hours, and it didn't
+fail us because of the human aspect, the unbelievable work by men
+and women who faced these issues and solved them. This was one of
+the best examples of human cooperation in the history of mankind.''
+

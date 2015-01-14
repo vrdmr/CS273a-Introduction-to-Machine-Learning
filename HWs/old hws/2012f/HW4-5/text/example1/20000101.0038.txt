@@ -1,0 +1,69 @@
+
+At times more words, not fewer, are needed to decode
+particularly turgid passages. Here's one example cited by Lutz,
+with a suggested revision.
+
+
+Before: When business processes are automated, employees are
+careful not to fall into the trap of applying new technology to
+old, inefficient work procedures. Instead, a needs assessment is
+completed to identify system requirements, and then automated
+systems are designed to accomplish these goals.
+
+
+After: Computers don't improve the way you do business, if you
+simply do business the same old way using the computers. So, before
+we installed a new computer system in the Purchasing Department, we
+asked ourselves if there were a better way to do what this
+department does. After talking to the people in Purchasing and to
+our suppliers, we came up with a completely new way to run this
+department. Then we asked the computer people to design the
+computer systems we needed to make our new approach work.
+
+
+_ And then there are the hopeless causes that force even the
+most fervent plain-language disciples to throw up their hands.
+Consider this financial document, provided by Lutz, which comes in
+at a breathtaking 374 words. He said he still hasn't come up with a
+revision:
+
+
+A conveyance by the Transferor to a Trust of Receivables in
+Additional Accounts or Participations is subject to the following
+conditions, among others (provided, that the following conditions
+(other than the delivery of a written assignment and computer file
+or microfiche list as described in clause (ii) and the making of
+representations and warranties in clause (iii) shall not apply to
+the transfer to a Trust of Receivables in Automatic Additional
+Accounts): (i) the Transferor shall give the related Trustee, each
+Rating Agency and the Servicer written notice that such additional
+Accounts or Participations will be included, which notice shall
+specify the approximate aggregate amount of the Receivables or
+interests therein to be transferred; (ii) the Transferor shall have
+delivered to such Trustee a written assignment (including an
+acceptance by such Trustee on behalf of the related Trust for the
+benefit of the Certificateholders) as provided in the related
+Agreement relating to such Additional Accounts or Participations
+(the `Assignment') and, the Transferor shall have delivered to such
+Trustee a computer file or microfiche list, dated the date of such
+Assignment, containing a true and complete list of such Additional
+Account or Participations; (iii) the Transferor shall represent and
+warrant that (x) each Additional Account is, as of the Addition
+Date, an Eligible Account, and each Receivable in such Additional
+Account is, as of the Addition Date, an Eligible Receivable, (y) no
+selection procedures believed by the Transferor to be materially
+adverse to the interests of the related Certificateholders were
+utilized in selecting the Additional Accounts from the available
+Eligible Accounts from the Identified Pool, and (z) as of the
+Addition Date, the Transferor is not insolvent; (iv) the Transferor
+shall deliver certain opinions of counsel with respect to the
+transfer of the Receivables in the Additional Accounts or the
+Participations to such Trust and (v) under certain circumstances
+with respect to Additional Accounts, and in all cases with respect
+to Participations, the Transferor shall have received notice from
+each Rating Agency then rating any Series of Certificates
+outstanding under such Trust that the addition of such Additional
+Accounts or Participations will not result in the reduction or
+withdrawal of its then existing rating of any Series of
+Certificates outstanding under such Trust.)
+

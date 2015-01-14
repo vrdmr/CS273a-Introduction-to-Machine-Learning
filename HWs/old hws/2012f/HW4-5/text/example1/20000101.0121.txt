@@ -1,0 +1,29 @@
+
+A stockpile of $750,000 worth of spare parts set
+aside for Year 2000 fixes remained in a storeroom Saturday in New
+York City's computer center in Brooklyn.
+
+
+The only power failure associated with the transition to 2000
+came when a foil balloon in Queens rose and struck some wires,
+blacking out 100 customers, utility officials said.
+
+
+City officials said it was too early to say that no computer
+repairs would be needed, with systems of lesser importance
+scheduled to kick on in the days ahead. But they emphasized that
+globally, it was increasingly evident that something remarkable had
+been accomplished.
+
+
+It was possible to attack the problem partly because of the
+nature of the Year 2000 glitch, a fairly fundamental failure of
+systems to distinguish between certain dates, said Joseph J. Lhota,
+the deputy mayor for operations.
+
+
+``You knew that the vast majority of your computer systems would
+not work because of a very simple thing,'' Lhota said. ``It was a
+definable problem, and we had a time frame for dealing with that
+problem.''
+

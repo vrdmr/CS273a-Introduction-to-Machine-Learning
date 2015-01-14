@@ -1,0 +1,200 @@
+
+Key utilities and government officials across the country
+declared victory over the Y2K software bug Saturday, raising hopes
+that business computers will also operate smoothly as the workweek
+begins.
+
+
+Major electric generating and transmission companies, water
+services, telecommunications providers, and banks reported few
+problems associated with the rollover to Jan. 1, 2000.
+
+
+Considering fears that the date change might cause blackouts and
+other big disruptions, what did emerge seemed minor, such as faulty
+dates on some Massachusetts state e-mail. Other issues bordered on
+the comic, such as problems at certain financial Web sites that
+temporarily assigned one man in Maine a $76 million windfall.
+
+
+``We are in much better shape than anyone would have
+predicted,'' John Koskinen, President Clinton's top Y2K adviser,
+said at a news conference in Washington. ``We have not been able to
+find anything of great significance to report here.''
+
+
+``For most Y2K (issues), success is already achieved,'' echoed
+Dennis DiMarzio, chief operating officer for the City of Boston.
+
+
+The most significant setback reported by the US government
+involved a military spy system that was blinded for three hours
+after a satellite data-processing unit crashed. Service was
+partially restored within a few hours, said Deputy Defense
+Secretary John Hamre.
+
+
+After months of intense worry about readiness of major
+institutions, the smooth transition raised the ironic question of
+whether too much money and attention might have been paid to the
+potential glitch. The answer may not be known for weeks as
+organizations discover whether mundane problems might add up to
+anything significant.
+
+
+But given the stakes, the progress reports from some of the
+economy's most important sectors suggested that Y2K at least had
+become an economic issue rather than a matter of civil order.
+
+
+Officials said they were especially pleased that so few problems
+seemed to emerge related to ``embedded'' computer chips, which are
+built into many devices such as traffic lights and were often hard
+to test in advance.
+
+
+At Boston Edison's command center in Dorchester, by 1 a.m.
+Saturday the utility's chief Y2K planner, Jim Ashkar, had shifted
+his attention from keeping the lights on to making sure the
+company's billing and payroll systems worked as designed.
+
+
+``We won't be tarred and feathered by the customers,'' he said
+after it seemed clear the region's lights would stay on. But
+looking forward, he noted, ``We could still be tarred and feathered
+by our shareholders.''
+
+
+``Maybe it was good for Y2K to come along,'' said Boston Mayor
+Thomas M. Menino. ``It forced us to do some work we probably would
+have postponed for a while.''
+
+
+Throughout the United States, worries began to ease Friday as
+few problems emerged as midnight arrived overseas.
+
+
+At the Massachusetts Emergency Management Agency's underground
+command center in Framingham, dozens of relieved officials clapped
+and hugged at 12:01 a.m. Saturday as lights stayed on and public
+celebrations continued uninterrupted.
+
+
+By Saturday afternoon the state's chief Y2K planner, Val
+Asbedian, said he knew of only ``cosmetic'' difficulties around
+Massachusetts, such as problems with the phone system of a state
+college he declined to identify. Asbedian said he expected only
+``nuisances or embarrassments'' would emerge when the workweek
+begins.
+
+
+The North American Electric Reliability Council, the utility
+trade group responsible for monitoring the nation's power system,
+said data clocks at eight utilities failed a time-check at midnight
+Greenwich Mean Time, or 7 p.m. Friday on the East Coast.
+
+
+No power operations were impacted as a result, the group said.
+Federal officials reported problems at five nuclear power plants,
+which face stricter monitoring than most power facilities.
+
+
+Problems included faults in card-readers that control building
+access. At the Millstone nuclear power plant in Waterford, Conn.,
+programs that monitor wind-speed and radiation emissions failed and
+had to be reset, the government reported. Spokespeople for
+Northeast Utilities, the plant's owner, couldn't be reached for
+comment.
+
+
+Business consultants like Steve Goldberg in Needham said they
+weren't ready to call Y2K a nonevent, noting that more than half of
+all business PCs won't even be turned on Monday morning. ``All we
+know so far is that the infrastructure held, but that's good
+news,'' he said.
+
+
+With their lights on and television sets working, thousands of
+office workers assigned to overtime duties in Boston's financial
+district found themselves with little to do in the early morning
+hours Saturday.
+
+
+At FleetBoston Financial's command center at One Federal St.,
+company spokesman Jim Shepker said the region's largest bank began
+sending call-center representatives home at 2 a.m. Saturday.
+
+
+``They simply were not being used,'' Shepker said. Once the
+lights stayed on, he said, ``customers weren't worried.''
+Altogether the bank had 4,000 workers on duty over the weekend,
+2,800 more than usual.
+
+
+Spokespeople for other big financial institutions in the region
+including Fidelity Investments, State Street Corp., and Citizens
+Financial Group said they had nothing to report Saturday.
+
+
+Hospitals and health-care services were also seen as vulnerable
+to Y2K-related glitches, but no troubles were found at major
+institutions including Beth Israel-Deaconess Medical Center and at
+Newton-Wellesley Hospital.
+
+
+At the John F. Kennedy Federal Building downtown, a fire alarm
+system malfunctioned and had to be reset Saturday morning,
+officials said, though the cause of the problem was unclear.
+
+
+Business at Logan Airport, off dramatically on Friday and early
+Saturday because of travelers' concerns about the bug, picked back
+up at noon. About 80 percent of the flights normally scheduled for
+a Saturday were expected to operate for the day, said Jose Juves, a
+spokesman for the Massachusetts Port Authority.
+
+
+Federal Aviation Administration officials reported two problems
+believed to be Y2K-related, but both were fixed immediately and did
+not affect traffic. One involved printers at oceanic air traffic
+facilities in New York and Oakland, Calif. In the other case, files
+with the date ``00'' were wiped out of a weather advisory system.
+
+
+Other problems seemed to involve lower stakes. In Delaware, slot
+machines at three racetracks refused to take bets, apparently
+because of the date change.
+
+
+In Stockton Springs, Maine, schoolteacher Bill Carpenter said he
+logged on to a financial Web site run by Microsoft Corp. at 12:15
+a.m. Saturday to discover a decimal-place error in his on-line
+stock portfolio had resulted in a $76 million windfall.
+
+
+``It was a great moment!'' he said. ``We were lighting cigars
+with $20 bills for an hour.'' After promising several party guests
+$1 million apiece, Carpenter said he logged back on at 1:30 a.m.
+only to see his gains had been erased. ``I'm still not sure what to
+tell them,'' he said of his friends.
+
+
+A spokeswoman for Microsoft Corp. blamed the error on faulty
+data provided by a contractor she declined to name; other on-line
+services including AltaVista and YYY also reported difficulties.
+With weekend Y2K efforts an apparent success, businesses Saturday
+began to focus on what else might turn up. Kevin Lamont, a manager
+at the HMV Record Store in Harvard Square, said he is more
+confident that serious problems have been avoided. ``It does feel
+good to know that it's over,'' Lamont said.
+
+
+In Washington, Bruce McConnell, head of a United Nations-backed
+Y2K coordination center, credited everything from international
+cooperation to ``good luck'' to minimizing Y2K woes.
+
+
+Based on the weekend results, he said, ``Starting Monday, we
+will hear of many errors, but most of them will not pose serious
+problems and will be quickly fixed.''
+

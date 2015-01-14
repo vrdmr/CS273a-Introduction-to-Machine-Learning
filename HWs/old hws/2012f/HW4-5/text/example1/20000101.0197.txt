@@ -1,0 +1,205 @@
+
+For months we were told to hope for the best
+but expect the Y2K worst.
+
+
+Localized power outages? Quite possible. Problems with the water
+supply? Could be. Are the banks ready? Better have some extra cash,
+just in case. And food. Buy some extra food.
+
+
+When the best happened, the first words we uttered were ``hype''
+and ``scam.''
+
+
+A world suffering a global party hangover woke up Saturday to
+the anticlimax of the century. Everything still worked.
+
+
+Money and time _ lots of both _ resulted in the Y2K bug being
+pretty much a no-show, even though a lot more glitches began
+surfacing Saturday.
+
+
+John Koskinen, President Clinton's chief Y2K adviser, was
+defending the $100 billion spent on Y2K by government and business
+in the United States before the ball even dropped in Times Square
+on New Year's Eve.
+
+
+``I don't know anyone who's spent any time on this problem who
+doubts that, had the effort not been made, had the money not been
+spent, we would be in a very different situation here right now,''
+Koskinen said Friday night.
+
+
+``We would, I think, have significant failures.''
+
+
+Koskinen and others cautioned that we were not out of the woods
+yet. As has been warned for weeks, workers returning to their jobs
+Monday still may face computer glitches and outright failures.
+
+
+``There is too much focus on New Year's weekend,'' said Bruce
+McConnell, director of the International Y2K Cooperation Center.
+``If you think that the only time to worry about the Y2K bug is on
+January 1, then you're underestimating the problem.''
+
+
+Depending on which estimate you believe, government and business
+worldwide spent either $320 billion or $500 billion on Y2K fixes.
+Government officials and industry analysts said that much money,
+plus the years of work spent by some companies to fix problems,
+paid off.
+
+
+``The fact that there was so much preparation done accounts for
+the fact we have encountered so few problems,'' said Don Meyer,
+spokesman for the U.S. Senate Special Committee on the Year 2000
+Technology Problem.
+
+
+Even so, there are plenty of unanswered questions.
+
+
+In Russia many government agencies adopted a ``fix on failure''
+approach: Don't bother until it breaks. At least two Middle Eastern
+oil-producing countries took the same approach.
+
+
+According to early reports, there were no widespread failures in
+any of the three countries.
+
+
+In fact, there were no reports of failures in those countries at
+all _ although admittedly American intelligence in all three
+countries is poor.
+
+
+``Who could have expected so few problems?'' said Andy Kyte, an
+analyst with GartnerGroup, a technology research firm that has been
+following the Y2K issue.
+
+
+``Closer analysis will show that so many businesses had shut
+down for two or three days that, really, the world's computer
+systems had been deactivated by year 2000,'' Kyte said. ``We still
+have to wait and see whether under full load, doing all of their
+transactions, they can cope with normal business'' in the year
+2000.
+
+
+John Gantz, chief researcher for Project Magellan, the Y2K
+research arm of International Data Corp., agreed.
+
+
+``Given the fact that most of the companies in the country are
+small businesses and that two-thirds of them hadn't finished Y2K
+remediation as of last night, I believe plenty of Y2K glitches have
+yet to appear,'' Gantz said.
+
+
+``Instead of one big flood, we're going to see a lot of leaky
+basements.''
+
+
+Among those urging caution Saturday was Peter de Jager, a
+Canadian Y2K expert.
+
+
+``It is very premature at this point in time to declare
+victory,'' de Jager said. ``We expected the infrastructure to be
+OK, but wait until next week to start drawing conclusions about how
+successful or unsuccessful we've been.''
+
+
+The Senate Year 2000 committee will continue to mop up those
+leaks until Feb. 29, a leap-year date that computers may not
+recognize. Day 1, Year 2000
+
+
+In Kansas City, in Washington and across the world, technicians
+spent New Year's Day scouring computer systems and checking office
+buildings looking for snags caused by the Year 2000 computer
+problem.
+
+
+They found surprisingly little.
+
+
+``All along our concern was the unknown,'' said Dean Katerndahl,
+the Mid-America Regional Council's Y2K point man. ``And we still
+don't know about some of the things that may be coming up in the
+next weeks.''
+
+
+It is not that there were not hundreds or even thousands of
+minor glitches.
+
+
+Six American nuclear power plants, including one in Little Rock,
+Ark., had minor reporting problems that were fixed quickly. A
+system used to track Amtrak trains had to be reset manually.
+
+
+Equipment used at two Swedish hospitals to analyze
+electrocardiogram data malfunctioned. The doors in a federal
+building under renovation in Omaha, Neb., would not lock.
+
+
+A U.S. spy satellite was knocked off line for a couple of hours.
+
+
+In Brazil machines at three toll roads issued receipts with the
+wrong date. A hospital in Sao Paulo was unable to use its
+computerized patient registration system, and another hospital in
+Recife had trouble using its internal record system.
+
+
+In France the Syracuse II military satellite system was running
+on a software patch while technicians worked on a permanent fix.
+
+
+Microsoft, the world's largest software company, reported two
+glitches. One caused the company's MoneyCentral Web site to vastly
+overestimate the worth of some customers' portfolios. Microsoft
+Hotmail users who left old mail in their online mailbox found that
+it appeared to have been sent in 2099.
+
+
+At a news conference Saturday, Koskinen said he was pleased with
+the transition from 1999 to 2000.
+
+
+``We have not been able to find anything of great
+significance,'' he said.
+
+
+Neither could officials in Kansas City.
+
+
+``We saw nothing. We saw absolutely nothing,'' said Gary Brown,
+the emergency services manager for the Mid-America Regional
+Council. ``Not a single reported Y2K problem.'' Model of planning
+
+
+Brown, who coordinated the region's Information Coordination
+Center, attributed the quiet evening to planning and to public and
+private partnerships.
+
+
+What we got for the investment was a quiet evening and a
+blueprint for future disasters.
+
+
+Brown said he would have liked to have seen a Y2Klike emergency
+network several years ago when an October surprise dumped a pile of
+snow on Kansas City.
+
+
+At the time, telephone lines were jammed, key officials did not
+have the proper information, and emergency responses were delayed.
+With the lessons learned from Y2K, a disaster response squad can be
+established without reinventing the wheel, Brown said.
+

@@ -1,0 +1,133 @@
+
+The eastern half of the United States smoothly
+followed the rest of the world into the new century early Saturday
+with only a smattering of minor Y2K glitches reported.
+
+
+Slot machines in Delaware went bonkers and clocks at a Wisconsin
+electricity plant went haywire, as if to highlight the lack of
+serious problems in the nation.
+
+
+``We have seen no indications of any significant Y2K problems,''
+said John Koskinen, chief of the White House's Y2K command center,
+based on reports from the Eastern and Central time zones.
+
+
+He reported some congestion on telephone networks on the East
+Coast as the clock moved past midnight. ``Some people have received
+messages that all circuits are busy,'' he said, referring to the
+`Mother's Day effect'' of heavy telephone use.
+
+
+Earlier Friday, Koskinen reported that about 150 slot machines
+at three Delaware race tracks temporarily shut down Thursday night
+after the slots' time-based computer chips _ programmed to read
+three days ahead _ became confused when they rolled over to 2000.
+The slots were quickly repaired. In Wisconsin the clocks _ which
+went down Friday at 7 p.m. EST _ were quickly reset and no one lost
+power.
+
+
+Koskinen and a host of other top government officials gave
+upbeat reports all day Friday and early Saturday as the new year
+swept across most of the globe.
+
+
+On Friday, Asia, Russia and Europe preceded the United States
+into the new century. Countries such as China, Russia and Ukraine
+rolled into Jan. 1 without problems in their nuclear power plants
+and other key systems that U.S. officials had feared might shut
+down as a result of a Y2K computer glitch. Officials cautioned,
+however, that problems could still crop up in coming days. Monday
+was cited as a crucial milestone because it will be the first day
+of normal business operations following the long holiday weekend.
+
+
+The biggest reported Y2K problem overseas was with a Japanese
+nuclear plant. The Shika Nuclear Power Station about 170 miles
+northwest of Tokyo, lost its radiation alarm system shortly after
+midnight there. Energy Secretary Bill Richardson described the
+system as a backup system and said it did not affect plant safety.
+
+
+The United States experienced its first Y2K tests at 7 p.m. EST
+Friday, when computers that control airline traffic, about
+one-third of the nation's power grid and military operations
+appeared to roll over into the new year without incident. The
+computers are based on Greenwich Mean Time, which is five hours
+ahead of the Eastern Standard Time zone.
+
+
+``The nation's airspace system is up and running safely,''
+Federal Aviation Administration chief Jane Garvey said. She was
+aboard a jet traveling from Washington, D.C., to Dallas when air
+traffic computers passed midnight GMT.
+
+
+Even before parts of the U.S. crossed into the new millenium,
+Koskinen predicted the country would easily weather the transition
+into the New Year.
+
+
+``I have never felt that there was any significant chance that
+the United States would have would have a major problem in the
+infrastructure, either nationally or regionally,'' he said.
+
+
+But, he said, the fact that virtually all of the world moved
+into the new year without any problems should not lead to anyone to
+`underestimate the nature of the problem that was originally
+there.''
+
+
+`Had the effort not been made, had the money not been spent, we
+would be in a very different situation than we find ourselves in
+right now,'' he said.
+
+
+The Commerce Department estimates that some $100 billion was
+spent in the United States over the past five years to fix the Y2K
+problem _ which would occur if computers interpreted the digits
+``00'' as 1900 rather than 2000. Worldwide is it estimated that
+governments and private industry spent close to $400 billion fixing
+its computers.
+
+
+Early good news came to the White House center as New Year's eve
+slipped past midnight in Western Pacific time zones first. For
+example, New Zealand celebrated the arrival of the New Year 18
+hours before Washington, D.C. As Japan, Australia and other nations
+joined the '00 honor roll, optimism grew at the White House Y2K
+coordination center that years of preparedness were paying off.
+
+
+Thomas Pickering, the No. 2 person at the State Department,
+reported that all 29 of Russia's nuclear power plants passed into
+the new year without incident, a reassuring note because of concern
+about Russia's attention to the Y2K issue and its aging nuclear
+reactors.
+
+The Seattle Post-Intelligencer plans to move the following
+stories for clients of the NYTimes News Service for editions of
+Friday, Dec. 31, and thereafter. If you have any questions, please
+call Bob Schenet on the national-foreign desk at (206) 448-8037.
+	BOMB-SUSPECTS (Seattle) _ The Algerian arrested two weeks ago in
+Washington after he ran from customs inspectors and from his car
+loaded with high explosives belongs to a notorious terrorist group
+blamed for massacres, bombings and a hijacking, federal prosecutors
+now assert. And prosecutors have linked Ahmed Ressam, who remains
+in a federal dentention center south of Seattle, with a Canadian
+woman arrested after she tried to cross the U.S. border at a remote
+port of entry in Vermont.
+	By Scott Sunde. (Story will move in the ``a'' category.)
+	MILLENNIUM-TIME (Undated) _ On the eve of a new millennium _ or
+not _ it's worth remembering what Albert Einstein told us. Time is
+relative. For computers and other number-driven devices, the
+numerical millennium does begin precisely when the digits click
+over to that first microsecond or nanosecond or eensy-teeny-weenier
+second that will mark the first Y2K moment, Jan. 1, 2000.
+	Outside of cyberspace, however, our millennial celebrations will
+have to tolerate a very unscientific and much lower level of
+precision.
+	By Tom Paulson. (Story has moved in the ``l'' category.)

@@ -1,0 +1,121 @@
+
+Moving in (w) Washington and (f) financial categories.
+
+
+By MARILYN GEEWAX
+
+
+c. 2000 Cox News Service
+
+
+WASHINGTON _ While country after country continued to report
+success this weekend in smothering the Y2K computer bug, U.S.
+leaders delayed declarations of victory Saturday. They say the true
+test of Y2K will come Monday.
+
+
+``It isn't over yet,'' said Rep. Steve Horn, R-Calif., chairman
+of the House subcommittee that investigated Y2K readiness. ``We
+have to see what, if any, damage will be done'' once computers face
+the strain of a full work week.
+
+
+But Horn and other Y2K authorities were greatly encouraged by
+initial assessments of the bug, a software flaw that could cause
+older computers to misread the two-digit date ``00'' as 1900,
+rather than 2000. Without repairs, that seemingly simple
+misunderstanding could cause serious equipment malfunctions.
+
+
+When the date began rolling over on New Year's Day, global
+monitors started looking for trouble in telecommunications systems,
+power grids, transportation networks and other vital operations.
+But many hours into 2000, officials could find no significant Y2K
+problems, even in those countries that many had feared were ill
+prepared, such as Russia, Ukraine and China.
+
+
+Bruce McConnell, director of the United Nations-backed
+International Y2K Cooperation Center, said Saturday that while he
+believes ``we are on the verge of a major success,'' no one will be
+sure for several days. In some countries, as many as two out of
+three computers won't be turned on during the long weekend, he
+said. ``We don't think we're out of the woods yet.''
+
+
+In the United States, a few banks tried to avoid possible Monday
+morning jitters by opening branches Saturday to demonstrate the
+smoothness of operations. None reported problems.
+
+
+But while Y2K authorities say the champagne should stay on ice
+through the weekend, they do seem confident that the worst-case
+scenarios, such as widespread power blackouts and massive traffic
+tie-ups, won't occur.
+
+
+In assessing why the Y2K effort has been going so well so far,
+authorities are virtually unanimous in praising John Koskinen,
+chairman of the President's Council on Year 2000 Conversion.
+
+
+Koskinen, 60-year-old the former deputy director at the Office
+of Management and Budget, was appointed two years ago by President
+Clinton to spur business and government officials to fix Y2K bugs.
+His no-nonsense approach won over industry leaders, as well as
+congressional Republicans, who often are reluctant to take advice
+from Clinton appointees. Horn said Koskinen was ``an excellent
+choice'' because he was so non-partisan in his dealings with
+Congress, which approved $8.5 billion for Y2K fixes.
+
+
+Harris Miller, president of the Information Technology
+Association of America, said the Y2K battle progressed more quickly
+than many business people had expected because Koskinen, Horn and
+several other members of Congress revealed themselves to be
+``really good people'' who just wanted solutions.
+
+
+``It was the luck of the draw,'' Miller said, but those who were
+drawn to lead the Y2K battle turned in ``an amazing effort.''
+
+
+Though Saturday revealed no significant Y2K problems, some
+glitches were reported around the country. Among them:
+
+
+_ The Pentagon said a U.S. military spying system was blinded
+for about three hours because of a Y2K failure. A back-up system
+partially restored operations while software patches were being
+made.
+
+
+_ An Amtrak computer that tracks trains failed temporarily in
+Saturday's early hours, but operators quickly switched to a manual
+system and fixed the software.
+
+
+_ Computers at five nuclear plants across the country also
+reported some temporary problems, but none were related to plant
+operations or safety.
+
+
+_ The U.S. Naval Observatory, which has a master clock in
+Washington keeping the nation's official time, reported Saturday's
+date as Jan. 1, 19100 on its Internet site. The glitch, which was
+corrected, affected only the Web site, not the master clock.
+
+
+_ Some 150 slot machines at three Delaware race tracks failed
+briefly because of a Y2K bug.
+
+
+(Marilyn Geewax can be reached by e-mail at:
+mgeewax(at)coxnews.com)
+
+
+ENDIT
+
+
+Story Filed By Cox Newspapers
+

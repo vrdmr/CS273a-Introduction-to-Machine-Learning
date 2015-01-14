@@ -1,0 +1,140 @@
+
+Now that the Year 2000 has arrived around the world without
+significant disruptions of power, transportation, commerce and
+other activities dependent on computers, the question arises: Was
+the threat of technology failure overstated, or was it all those
+hundreds of billions of dollars that were spent to fix things that
+prevented a catastrophe?
+
+
+Most computer experts insist that the problem was a widespread
+and major threat before work began. ``There was puffery by vendors
+and some money was wasted, but these were real problems,'' said
+Leon Kappelman, a University of North Texas associate professor of
+business and co-chairman of the Society for Information
+Management's Year 2000 Working Group.
+
+
+Many also warned Saturday that significant problems could still
+emerge in the months to come if less critical or less frequently
+used computers, programs or microchips belatedly become confused.
+And little of the world's vast array of financial and office
+computing systems will face real-world Year 2000 conditions until
+business resumes Monday.
+
+
+``Probably 10 percent of the world's computer systems had a
+workout at the gym this weekend, but 90 percent did not,'' said
+Howard Rubin, chairman of the department of computer science at
+Hunter College in New York and an international expert on the Year
+2000 computer problem. ``The statistics say there's still got to be
+something out there that's wrong. It'll take weeks, perhaps a full
+year, to understand the full impact.''
+
+
+Still, some computer experts, like William Wattenburg, who
+developed an automated program to deal with Year 2000 flaws, were
+saying the quiet rollover was predictable and that the dangers had
+been wildly exaggerated.
+
+
+And charges were flying Saturday from individuals who had
+expected the worse.
+
+
+``Why did we fall for this hype?'' a correspondent in an
+Internet discussion group devoted to Year 2000 issues wrote
+Saturday. ``I feel cheated, betrayed, misused, abused, deceived and
+everything else!'' The note was signed, ``Gullible.''
+
+
+Year 2000 project managers looking ahead to the start of normal
+business on Monday warned that it was far too soon to relax.
+Thousands of workers spent the early hours of Saturday retesting
+systems needed for office operations once the holiday weekend ends.
+
+
+The results constituted more good news. For instance, the
+Securities Industry Association, a trade group, said Saturday that
+the stock exchanges and support organizations had discovered and
+quickly fixed glitches that caused ``1900'' to appear on some
+printed forms.
+
+
+But the overall good news was not being interpreted as evidence
+that the huge precautionary investments had been unnecessary. ``Had
+we not fixed our code and done the level of testing and gone out
+and gotten outside auditors, we would definitely have had
+failures,'' said Gary Davis, the Year 2000 director for New York
+state, which spent about $270 million on the problem. ``There's a
+whole laundry list of silver linings.''
+
+
+For example, like most major computer users, New York ended up
+doing a thorough inventory of the state's technological
+underpinnings. ``Lots of our technology was 10 years old, some even
+two decades old,'' Davis said. ``It all really needed upgrading and
+now we're in a much better position to deliver better services to
+New Yorkers.''
+
+
+John A. Koskinen, chairman of the President's Council on Year
+2000 Conversion, added his voice at a 2 a.m. press conference
+Saturday to those denying that the United States had been chasing a
+mirage rather than a real threat _ even though other nations that
+spent far less seemed to encounter no significant difficulties.
+
+
+Koskinen said that the United States, as the nation most
+dependent on computers, needed to spend the most to avoid
+disruptions. If the news remains good, he said, ``It will reflect
+the success of a unique, massive cooperative effort.''
+
+
+Computer experts said the United States had benefited in
+numerous ways from its heavy spending _ pegged at $100 billion by
+the government and several times that amount by some private
+analysts. One of the most important ways, some said, was a
+recognition by business and government leaders that computers and
+software must be more carefully managed.
+
+
+Rubin termed the rollover an ``extraordinary success'' after a
+belated start working on Year 2000 programming flaws. But such slow
+reactions may not be correctible in the future, he warned.
+
+
+``When computers are in your face _ when you have an Internet
+refrigerator _ you won't be able to take that kind of chance,'' he
+said. ``Soon, Earth will have an Internet skin. This skin will be a
+critical thing. As everything becomes more responsive in real time,
+the technological risks get higher.''
+
+
+Others said the investment laid the groundwork for some
+fascinating case studies in technology management. Companies like
+Delta Airlines, which expects to spend up to $120 million,
+according to filings with the Securities and Exchange Commission,
+made Year 2000 investments part of a broader deployment of new
+technology that could give the company a competitive advantage in
+the future, according to Kappelman.
+
+
+Around the globe, government officials felt an obligation to
+defend their spending as most computers and related systems
+functioned well as the year changed.
+
+
+``There is a certain sense of wry anticlimax out there,'' said
+Michael Granatt, a director of the British government's millennium
+center, as he listed a few of the glitches that came to light as
+2000 dawned, including temporary breakdowns in fare collection
+systems on trams in Sydney and Adelaide, Australia, and the failure
+of a tide gauge in Porstmouth, England.
+
+
+But he said it was important to acknowledge that the lack of
+truly disastrous computer failures was not a fluke. ``Things don't
+go right by accident,'' he said. ``They go right through proper
+planning.''
+

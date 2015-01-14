@@ -1,0 +1,136 @@
+
+As the world glided smoothly into the new century,
+the United States reported Saturday only a smattering of minor Y2K
+glitches, but officials cautioned that problems could still crop
+up, especially starting Monday.
+
+
+John Koskinen, chief of the White House's Y2K command center,
+said Monday will be a crucial milestone because it will be the
+first day of normal business operations following the long holiday
+weekend.
+
+
+Otherwise, he offered generally upbeat news about the nation's
+progress. ``We have not been able to find anything of great
+significance to report,'' he said.
+
+
+All of the nation's major sectors from airlines to electric
+power grids to telecommunications continued working without
+incident on the first day of the new century, he said.
+
+
+The Pentagon reported Saturday that a satellite intelligence
+defense system had failed shortly after 7 p.m. EST Friday when the
+clock in that system turned past midnight Greenwich Mean Time.
+
+
+John Hamre, Deputy Defense Secretary, said that a backup system
+is currently in place and that the problem is with a computer on
+the ground and not in the satellite itself.
+
+
+Other reported Y2K glitches, however, were quickly fixed.
+Koskinen said an Amtrak computer system used to track trains
+automatically went down temporarily early Saturday but that train
+officials switched to a manual system and then fixed the computer.
+
+
+Computers at five nuclear plants across the country also
+experienced temporary problems, but Koskinen said they were
+immediately fixed and those plants' operations were not affected.
+
+
+The U.S. Naval Observatory, which has a master clock in
+Washington that serves as the nation's official source of time,
+reported the date as Jan. 1, 19100 during the earliest hours of the
+new year on its Internet site. The glitch has since been corrected
+and was only on that Web site. It was not a problem in the master
+clock, Koskinen said.
+
+
+He said federal government agencies and private industry would
+continue testing their systems and report any glitches, whether
+Y2K-related or not. He said checks of federal government buildings
+showed temporary problems with alarm systems at U.S. facilities in
+Boston, Kansas City and Omaha.
+
+
+A Federal Aviation Administration system used to notify pilots
+about such things as weather via e-mail shut down Saturday, but
+Koskinen said it was unclear whether the problem was Y2K-related. A
+backup pilot notification system was put in place, and air traffic
+safety was not affected, he added.
+
+
+As a precaution, the Social Security Administration,
+headquartered in Baltimore, switched to backup generators before
+the millenium rollover. The agency switched its systems back to
+Baltimore's main power grid at 6 a.m. EST Saturday without
+incident. Koskinen said all of Social Security's computers in
+Baltimore and at its field offices across the country are working
+normally.
+
+
+Some other federal agencies, also as a precaution, temporarily
+shut down their Internet Web sites.
+
+
+For the most part, Koskinen and other top government officials
+gave upbeat reports for the second day in a row as the new year
+swept across the globe.
+
+
+On Friday, countries such as China, Russia and Ukraine, which
+preceded the United States into the new year, rolled into Jan. 1
+without problems in their nuclear power plants and other key
+systems that American officials had feared might shut down as a
+result of a Y2K computer glitch. More significantly, those systems
+continued operating in those countries on their second day of the
+New Year.
+
+
+The biggest reported Y2K problem overseas occurred when Japan's
+Shika Nuclear Power Station about 170 miles northwest of Tokyo lost
+its radiation alarm system shortly after midnight there. Energy
+Secretary Bill Richardson described it as a backup system and said
+it did not affect plant safety.
+
+
+The United States passed its first Y2K tests at 7 p.m. EST
+Friday, when computers that control airline traffic, about a third
+of the nation's power grid and military operations appeared to roll
+over into the new year without incident. The
+
+
+computers are based on Greenwich Mean Time, which is five hours
+ahead of the Eastern Standard Time zone.
+
+
+``The nation's airspace system is up and running safely,''
+Federal Aviation Administration chief Jane Garvey said Friday
+night. She flew on a jet from Washington, D.C., to Dallas when air
+traffic computers passed midnight GMT.
+
+
+Koskinen, who had predicted an easy transition into the new
+year, said the fact that it happened should not lead to anyone to
+``underestimate the nature of the problem that was originally
+there.
+
+
+``Had the effort not been made, had the money not been spent, we
+would be in a very different situation than we find ourselves in
+right now,'' he said.
+
+
+The Commerce Department estimates that some $100 billion was
+spent in the United States over the past five years to fix the Y2K
+problem _ which would occur if computers interpreted the digits 00
+as 1900 rather than 2000. Worldwide is it estimated that
+governments and private industry spent close to $400 billion fixing
+
+
+their computers.
+
