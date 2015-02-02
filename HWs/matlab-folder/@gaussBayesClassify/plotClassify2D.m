@@ -43,3 +43,5 @@ for c=clim,
   ci = find(learner.classes == c);
   plotGauss2D(learner.means{ci},learner.covars{ci},'k','linewidth',3,'Color',cmap(col,:));
 end;
+
+
