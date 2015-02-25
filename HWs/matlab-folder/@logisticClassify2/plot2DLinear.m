@@ -11,9 +11,16 @@ function plot2DLinear(obj, X, Y)
 wts = getWeights(obj);
 %forig = gcf;
 f = @(x1, x2) wts(1) + wts(2)*x1 + wts(3)*x2 ;
-scatter(X(:,1),X(:,2),50,Y,'filled');
+
+scatter(X((Y==0),1),X((Y==0),2),50,'or');
 hold on;
-ezplot(f,[-3,3])
+scatter(X((Y==1),1),X((Y==1),2),50,'+b');
+hold on;
+%ARGS = [3,7,1.5,5]
+ezplot(f,[4,7,1.5,5])
+
+legend('Class 0','Class 1');
+
 hold off;
 %{
 

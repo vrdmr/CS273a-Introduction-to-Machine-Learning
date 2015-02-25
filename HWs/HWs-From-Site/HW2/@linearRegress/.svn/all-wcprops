@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/mltools/!svn/ver/11/@linearRegress
+END
+getWeights.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/mltools/!svn/ver/9/@linearRegress/getWeights.m
+END
+predict.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/mltools/!svn/ver/9/@linearRegress/predict.m
+END
+train.m
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/mltools/!svn/ver/13/@linearRegress/train.m
+END
+mae.m
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/mltools/!svn/ver/11/@linearRegress/mae.m
+END
+mse.m
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/mltools/!svn/ver/11/@linearRegress/mse.m
+END
+display.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/mltools/!svn/ver/9/@linearRegress/display.m
+END
+linearRegress.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/mltools/!svn/ver/1/@linearRegress/linearRegress.m
+END
+rmse.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/mltools/!svn/ver/11/@linearRegress/rmse.m
+END
+setWeights.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/mltools/!svn/ver/9/@linearRegress/setWeights.m
+END
