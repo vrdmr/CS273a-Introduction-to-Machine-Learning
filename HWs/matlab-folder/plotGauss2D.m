@@ -1,8 +1,7 @@
 function handle = plotGauss2D( gMean, gCov, colorString, varargin) 
 % H = plotGauss2D( mean, cov, colorString, ...)
 % Plot an ellipse indicating (one standard deviation of) a 2D Gaussian distribution using the 
-%   given plot style string (for example, 'b-' = solid blue line; 'g:' = green dotted line, etc.)
-%   Any additional passed parameters are passed into the plot function.
+%   given plot style string. Any additional passed parameters are passed into the plot function.
 
 if (length(gMean)>2) error('Can only plot 2-dimensional Gaussians'); end;
 
