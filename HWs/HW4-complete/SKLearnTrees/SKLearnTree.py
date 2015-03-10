@@ -182,13 +182,44 @@ def boost1():
 
         # pd.Series(pred).to_csv('pyprediction.csv', header=['Prediction'], index=True, index_label='ID')
 
+
+def boost2():
+    error_min = 1000000000
+    depth = 0
+    X = pd.read_csv('../data/kaggle/kaggle.X1.train.txt', header=None)
+    Y = pd.read_csv('../data/kaggle/kaggle.Y.train.txt', header=None)
+    Xtest = pd.read_csv('../data/kaggle/kaggle.X1.test.txt', header=None)
+    Xtr, Xte, Ytr, Yte = train_test_split(X, Y, test_size=0.25, random_state=42)
+
+    for i in range(3, 7):
+        print i
+        est = GradientBoostingRegressor(n_estimators=2000, max_depth=i, min_samples_leaf=500, warm_start=True)
+        est.fit(Xtr, Ytr)
+        Yhat = est.predict(Xte)
+        temp1 = mean_squared_error(Yte, Yhat)
+        if error_min > temp1:
+            error_min = temp1
+            depth = i
+
+    print "** error_min: " , error_min
+    print "** depth: " , depth
+
+    est = GradientBoostingRegressor(n_estimators=2000, max_depth=depth, min_samples_leaf=500, warm_start=True)
+    est.fit(X, Y)
+    pred = est.predict(Xtest)
+    s = pd.Series(pred)
+    s.index = s.index + 1
+    s.to_csv('pyprediction.csv', header=['Prediction'], index=True, index_label='ID')
+
+
 # pred = est.predict(Xtest)
-#pd.Series(pred).to_csv('prediction1.csv', header=['Prediction'], index=True, index_label='ID')
+# pd.Series(pred).to_csv('prediction1.csv', header=['Prediction'], index=True, index_label='ID')
 
 # main()
 # cv()
-#single()
-boost1()
+# single()
+#boost1()
+boost2()
 
 '''
 usr/local/bin/python /Users/varadmeru/uci-related/uci-courses/CS273a-Introduction-to-Machine-Learning/HWs/HW4-complete/SKLearnTrees/SKLearnTree.py

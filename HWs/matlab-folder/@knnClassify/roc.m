@@ -1,7 +1,7 @@
 function [fpr,tpr,tnr] = roc(obj,Xv,Yv);
 % [fpr,tpr,tnr] = roc(obj,Xtest,Ytest) : compute the "receiver operating characteristic" curve" on test data
 %   obj must be a binary classifier
-%   plot(fpr,tpr,'-') to display the ROC curve
+%   plot(fpr,tar,'-') to display the ROC curve
 %   plot(tpr,tnr,'-') to display the Sensitivity/Specificity curve
 
 if (length(obj.classes)>2) error('Currently only supports binary classification'); end;

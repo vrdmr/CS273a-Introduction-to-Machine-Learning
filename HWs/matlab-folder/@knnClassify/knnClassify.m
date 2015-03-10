@@ -8,8 +8,10 @@ function obj = knnClassify(Xtr,Ytr,K,alpha)
   obj.K=K; obj.Xtrain=[]; obj.Ytrain=[]; obj.classes=[]; obj.alpha=alpha;
   obj=class(obj,'knnClassify');
   if (nargin > 0) 
-    obj = train(obj,Xtr,Ytr);
-    obj = setK(obj,K);
+    obj.K = K;
+    obj.Xtrain = Xtr;
+    obj.Ytrain = Ytr;
+    obj.classes = unique(Ytr);
     obj.alpha = alpha;
   end;
 end
