@@ -1,17 +1,13 @@
 from sklearn import tree
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import StringIO
-import pydot
-from IPython.display import Image
 from sklearn.metrics import mean_squared_error
 from sklearn.cross_validation import train_test_split
 from sklearn import cross_validation
-from sklearn import datasets
-from sklearn import svm
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.ensemble import RandomForestRegressor
+import math
+
+import warnings
 
 
 def main():
@@ -139,8 +135,6 @@ def both():
     est1 = RandomForestRegressor(n_estimators=2000, max_depth=3, min_samples_leaf=300)
     est = GradientBoostingRegressor(n_estimators=2000, max_depth=3, min_samples_leaf=300)
 
-    est2 = GradientBoostingRegressor(n_estimators=100, max_depth=3, min_samples_leaf=500)
-
     est.fit(Xtr, Ytr)
     est1.fit(Xtr, Ytr)
 
@@ -184,42 +178,70 @@ def boost1():
 
 
 def boost2():
-    error_min = 1000000000
-    depth = 0
+    minimum_mse = 1000000000
+    min_depth = 0
     X = pd.read_csv('../data/kaggle/kaggle.X1.train.txt', header=None)
     Y = pd.read_csv('../data/kaggle/kaggle.Y.train.txt', header=None)
     Xtest = pd.read_csv('../data/kaggle/kaggle.X1.test.txt', header=None)
     Xtr, Xte, Ytr, Yte = train_test_split(X, Y, test_size=0.25, random_state=42)
 
-    for i in range(3, 7):
-        print i
-        est = GradientBoostingRegressor(n_estimators=2000, max_depth=i, min_samples_leaf=500, warm_start=True)
-        est.fit(Xtr, Ytr)
-        Yhat = est.predict(Xte)
-        temp1 = mean_squared_error(Yte, Yhat)
-        if error_min > temp1:
-            error_min = temp1
-            depth = i
+    for estimators in range(700, 2000, 100):
+        print "For estimators: ", estimators
+        for i in range(6, 8):
+            print "For max_depth: ", i
+            est = GradientBoostingRegressor(n_estimators=estimators, max_depth=i, min_samples_leaf=500, warm_start=True)
+            est.fit(Xtr, Ytr)
+            Yhat = est.predict(Xte)
+            current_mse = mean_squared_error(Yte, Yhat)
+            print "For MaxDepth:", i, ", MSE:", current_mse
+            if minimum_mse > current_mse:
+                minimum_mse = current_mse
+                min_depth = i
+                min_estimator = estimators
+                est2 = GradientBoostingRegressor(n_estimators=min_estimator, max_depth=min_depth, min_samples_leaf=500,
+                                                 warm_start=True, verbose=True)
+                est2.fit(X, Y)
 
-    print "** error_min: " , error_min
-    print "** depth: " , depth
+    print "** minimum_mse: ", minimum_mse
+    print "** min_depth: ", min_depth
+    print "** min_estimator: ", min_estimator
 
-    est = GradientBoostingRegressor(n_estimators=2000, max_depth=depth, min_samples_leaf=500, warm_start=True)
-    est.fit(X, Y)
-    pred = est.predict(Xtest)
+    pred = est2.predict(Xtest)
     s = pd.Series(pred)
     s.index = s.index + 1
     s.to_csv('pyprediction.csv', header=['Prediction'], index=True, index_label='ID')
 
 
-# pred = est.predict(Xtest)
-# pd.Series(pred).to_csv('prediction1.csv', header=['Prediction'], index=True, index_label='ID')
+def boost3():
+    X = pd.read_csv('../data/kaggle/kaggle.X1.train.txt', header=None)
+    Y = pd.read_csv('../data/kaggle/kaggle.Y.train.txt', header=None)
+    Xtest = pd.read_csv('../data/kaggle/kaggle.X1.test.txt', header=None)
+    Xtr, Xte, Ytr, Yte = train_test_split(X, Y, test_size=0.25, random_state=42)
+
+    est = GradientBoostingRegressor(n_estimators=2500, max_depth=8, min_samples_leaf=500, warm_start=True)
+    est.fit(Xtr, Ytr)
+    Yhat = est.predict(Xte)
+
+    current_mse = math.sqrt(mean_squared_error(Yte, Yhat))
+    print "-=- MSE:", current_mse
+
+    pred = est.predict(Xtest)
+    s = pd.Series(pred)
+    s.index += 1
+    s.to_csv('grad-boost-2000-depth-8-prediction.csv', header=['Prediction'], index=True, index_label='ID')
 
 # main()
 # cv()
 # single()
-#boost1()
-boost2()
+# boost1()
+warnings.simplefilter("ignore")
+# boost2()
+boost3()
+
+'''
+900 learner -
+Your submission scored 0.59752, which is not an improvement of your best score. Keep trying!
+'''
 
 '''
 usr/local/bin/python /Users/varadmeru/uci-related/uci-courses/CS273a-Introduction-to-Machine-Learning/HWs/HW4-complete/SKLearnTrees/SKLearnTree.py
@@ -251,10 +273,10 @@ Current MinParent 10
 [ 0.38547754  0.3763311   0.38887408  0.39852398  0.39097456]
 Current MinParent 11
 [ 0.36946489  0.36194918  0.36801996  0.38383503  0.38207836]
+P|D|Temp -  6 10 0.36439424583
 Current Depth 10
 Current MinParent 6
 [ 0.3639835   0.3448174   0.35914451  0.37397014  0.38005568]
-P|D|Temp -  6 10 0.36439424583
 Current MinParent 7
 [ 0.37619389  0.35521676  0.36401703  0.38429615  0.38608848]
 Current MinParent 8
